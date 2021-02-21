@@ -39,7 +39,7 @@ public class Exercise1 {
         System.out.println("\n");
         listEmp.forEach(
                 emp -> {
-                    System.out.format("%30s%30s%30s%30s%30s",emp.name,emp.year,emp.gender,emp.address,emp.salary);
+                    System.out.format("%30s%30s%30s%30s%30.2f",emp.name,emp.year,emp.gender,emp.address,emp.salary);
                     System.out.println("\n");
                 }
         );
