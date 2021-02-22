@@ -5,8 +5,17 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 
+
+/**
+ * @author Kelvin Dong
+ */
 public class Exercise1 {
 
+    // create list of objects from list of string
+    /**
+     * convert a list of string to list of objects
+     *
+     */
     private static ArrayList<Employee> initializeObject(ArrayList<List<String>> l)
     {
         ArrayList<Employee> listEmp = new ArrayList<Employee>();
@@ -19,6 +28,7 @@ public class Exercise1 {
         return listEmp;
     }
 
+    // print out class info as a final string
     private static String strOutput(List<Employee> listEmp)
     {
         String str = "Name \t JoiningYear \t Gender \t Address \t Salary \n";
@@ -32,6 +42,7 @@ public class Exercise1 {
         return str + concatStr;
     }
 
+    // print out class info one by one
     private static void printOutput(List<Employee> listEmp)
     {
 
